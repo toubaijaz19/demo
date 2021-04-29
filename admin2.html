@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><!-- Place favicon.ico in the root directory -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet">
+    <title>DoughShare - Admin</title><!-- themeforest:css -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/cookieconsent.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/odometer-theme-minimal.css">
+    <link rel="stylesheet" href="css/prism-okaidia.css">
+    <link rel="stylesheet" href="css/simplebar.css">
+    <link rel="stylesheet" href="css/smart_wizard.css">
+    <link rel="stylesheet" href="css/smart_wizard_theme_arrows.css">
+    <link rel="stylesheet" href="css/smart_wizard_theme_circles.css">
+    <link rel="stylesheet" href="css/smart_wizard_theme_dots.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/rtl.css"><!-- endinject -->
+
+    <style>
+        @media screen and (max-width: 767px){
+            .section h6, .section p{
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg_black" style="background-color:#434343;">
+        <div class="container-fluid">
+             <a class="navbar-brand"></a>
+                <form class="d-flex">
+                <button type="button" class="btn btn-link text-white">Log out</button>
+                </form>
+        </div>
+    </nav>
+    
+     <nav class="navbar navbar-expand-md navigation sidebar-left block bg-contrast " >
+        <div class="container py-4"><button class="navbar-toggler" type="button"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a href="#main" class="navbar-brand"><p class="logo logo-sticky bold">DoughShare</p></a>
+            <div class="collapse navbar-collapse ml-auto">
+                
+                <ul class="nav navbar-nav ml-auto" >
+                    <li class="nav-item"><a class="nav-link" href="javascript:;">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:;">Statements</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:;">Account Settings</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:;">Public Profile</a></li>
+                </ul>
+                
+            </div>
+        </div>
+
+    </nav>
+    <main>
+        <!-- ./Page header -->
+        <header class="header section parallax image-background center-bottom cover overlay gradient  alpha-8 text-contrast" style="background-color:#434343;">
+            <div class="container overflow-hidden">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 ">
+                        <h5 class="display-4 text-contrast bold">Admin Reports</h5>
+                    </div>
+                    <div class="col-md-6 col-lg-6 ">
+                        <p class="small">Billing Month: Jan 2021</p>
+                        <div class="input-group">
+                            <select name="month" id="month">
+                                <option value="select Month" selected>Select Month</option>
+                                <option value="january">January</option>
+                                <option value="February">February</option>
+                                <option value="march">March</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="site-footer section text-center block bg-contrast">
+            
+            <div class="container pb-3" style="margin-top: 100px;">
+                <div class="row bold ">
+                    <div class="col-2 ">
+                        <div class="col-2  ">
+                            <h6 class="py-2 ">Users</h6>
+                        </div>
+                    </div>
+                    <div class="col-10 d-flex border-bottom border-info" style="flex-direction: row; ">
+                        <div class="col-2   ">
+                            <h6 class="py-2">Email</h6>
+                        </div>
+                        <div class="col-2 ">
+                            <h6 class="py-2 ">Name</h6>
+                        </div>
+                        <div class="col-2  ">
+                            <h6 class="py-2 ">Month</h6>
+                        </div>
+                        <div class="col-1">
+                            <h6 class="py-2">Gateway</h6>
+                        </div>
+                        <div class="col-1  ">
+                            <h6 class="py-2">Total</h6>
+                        </div>
+                        <div class="col-2">
+                            <h6 class="py-2 pl-1 ">Process</h6>
+                        </div>
+                        <div class="col-2  ">
+                            <h6 class="py-2">Status</h6>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row">
+                    <div class="col-2 ">
+                        <div class="col-2  ">
+                            <p class="py-2 ">Accts Recieve</p>
+                        </div>
+                    </div>
+                    <div class="col-10 d-flex border-bottom border-info" style="flex-direction: row; ">
+                        <div class="col-2   ">
+                            <p class="py-2">Carrie@ gmail.com</p>
+                        </div>
+                        <div class="col-2 ">
+                            <p class="py-2 ">Carrie Smith</p>
+                        </div>
+                        <div class="col-2  ">
+                            <p class="py-2 ">Jan 2021</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="py-2">N/A</p>
+                        </div>
+                        <div class="col-1  ">
+                            <p class="py-2">$5.75</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="py-2"><a class=" small text-info ">View Email</a></p>
+                        </div>
+                        <div class="col-2  ">
+                            <p class="py-2 text-white" style="background-color:#434343;">Send payment</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 border-bottom border-info ">
+                        <div class="col-2  ">
+                            <p class="py-2 ">Accts Payable</p>
+                        </div>
+                    </div>
+                    <div class="col-10 d-flex border-bottom border-info" style="flex-direction: row; ">
+                        <div class="col-2   ">
+                            <p class="py-2">Stanley@gmail.com</p>
+                        </div>
+                        <div class="col-2 ">
+                            <p class="py-2 ">Stan James</p>
+                        </div>
+                        <div class="col-2  ">
+                            <p class="py-2 ">Jan 2021</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="py-2">Wepay</p>
+                        </div>
+                        <div class="col-1  ">
+                            <p class="py-2">$6.75</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="py-2"><a class=" small text-info ">View Email</a></p>
+                        </div>
+                        <div class="col-2  ">
+                            <p class="py-2 " >PAYMENT SENT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 ">
+                        <div class="col-2  ">
+                            <p class="py-2 ">Revenue</p>
+                        </div>
+                    </div>
+                    <div class="col-10 d-flex border-bottom border-info" style="flex-direction: row; ">
+                        <div class="col-2   ">
+                            <p class="py-2">jamesc@gmail.com</p>
+                        </div>
+                        <div class="col-2 ">
+                            <p class="py-2 ">Craig James</p>
+                        </div>
+                        <div class="col-2  ">
+                            <p class="py-2 ">Jan 2021</p>
+                        </div>
+                        <div class="col-1">
+                            <p class="py-2">Paypal</p>
+                        </div>
+                        <div class="col-1  ">
+                            <p class="py-2">$15.75</p>
+                        </div>
+                        <div class="col-2">
+                            <p class="py-2"><a class=" small text-info ">View Email</a></p>
+                        </div>
+                        <div class="col-2  ">
+                            <p class="py-2 " >PAYMENT SENT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+        
+        
+       
+       
+        
+            
+        
+
+            <hr class="mt-5">
+            <footer class="site-footer section block text-white" style="background-color:#434343">
+                <div class="container py-4 " >
+                    <div class="row align-items-center" style="font-size: 12px;" >
+                        <div class=" col-lg-3 content position-relative p-4 " >
+                            <h2 class=" mt-0">DoughShare</h2>
+                            <p >For natively created Axure widgets, you do not have to look any further.</p>
+                        </div>
+                        <div class="col-lg-3 content position-relative p-4 " style="line-height: 0.1cm;" >
+                            <h4 class=" mt-0">Recent Posts</h4>
+                            <p >Hugging pugs is super trendy</p>
+                            <p>February 14, 2017</p>
+                            <br><br>
+                            <p >Spinning vinyl is oh so cool</p>
+                            <p>February 9, 2017</p>
+                            <br><br>
+                            <p >Superior theme design by pros</p>
+                            <p>January 27, 20</p>
+                        </div>
+                        <div class="col-lg-3 content position-relative p-4 " >
+                            <h4 class=" mt-0">Recent Updates</h4>
+                        </div>
+                        <div class="col-lg-3 content position-relative p-4 text-center" >
+                            <h4 class=" mt-0">Instagram</h4>
+                            <div style="display: flex; flex-direction: row; justify-content: center;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEXT09OdeqMBAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="" width="50" height="50" srcset="" class="m-1" >
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEXT09OdeqMBAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="" width="50" height="50" srcset="" class="m-1">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEXT09OdeqMBAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="" width="50" height="50" srcset="" class="m-1">
+    
+                            </div>
+                            <div style="display: flex; flex-direction: row; justify-content: center;">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEXT09OdeqMBAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="" width="50" height="50" srcset="" class="m-1" >
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEXT09OdeqMBAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="" width="50" height="50" srcset="" class="m-1">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARwAAACxCAMAAAAh3/JWAAAAA1BMVEXT09OdeqMBAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIALA8UNAAFusnLHAAAAAElFTkSuQmCC" alt="" width="50" height="50" srcset="" class="m-1">
+    
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                
+                <hr class="w-100">
+               
+                    
+                <div class="row gap-y">
+                    <div class="col-md-6 col-lg-4" >
+                        <div>
+                            <div class=" flex-column text-center"><br>
+                                
+                                <p  style="color: white; font-size: 10px">©2020 5studios, All Rights Reserved</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="section-heading text-center">
+                        <button type="button" class="btn btn-dark align-items-center" onclick="topFunction()" style="margin-top:8%">TOP</button>
+                        </div>
+                    </div> 
+                    <div class="col-md-6 col-lg-4 ">
+                        <nav class="nav social-icons justify-content-center  mt-4"><a href="#" class="mr-3 font-regular text-white"><i class="fab fa-facebook-f"></i></a> <a href="#" class="mr-3 font-regular text-white"><i class="fab fa-twitter"></i></a> <a href="#" class="mr-3 font-regular text-white"><i class="fab fa-instagram"></i></a> <a href="#" class="mr-3 font-regular text-white"><i class="fas fa-rss"></i></a> <a href="#" class="font-regular text-white"><i class="fab fa-linkedin-in"></i></a></nav>
+                    </div>
+                </div>
+            </footer>
+    </main><!-- themeforest:js -->
+    <script src="js/01.cookie-consent-util.js"></script>
+    <script src="js/02.1.cookie-consent-themes.js"></script>
+    <script src="js/02.2.cookie-consent-custom-css.js"></script>
+    <script src="js/02.3.cookie-consent-informational.js"></script>
+    <script src="js/02.4.cookie-consent-opt-out.js"></script>
+    <script src="js/02.5.cookie-consent-opt-in.js"></script>
+    <script src="js/02.6.cookie-consent-location.js"></script>
+    <script src="js/card.js"></script>
+    <script src="js/counterup2.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/noframework.waypoints.js"></script>
+    <script src="js/odometer.min.js"></script>
+    <script src="js/prism.js"></script>
+    <script src="js/simplebar.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/jquery.smartWizard.js"></script>
+    <script src="js/plugins/jquery.animatebar.js"></script>
+    <script src="js/feather.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/typed.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/cookieconsent.min.js"></script>
+    <script src="js/common-script.js"></script>
+    <script src="js/forms.js"></script>
+    <script src="js/stripe-bubbles.js"></script>
+    <script src="js/stripe-menu.js"></script>
+    <script src="js/cc.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/shop.js"></script>
+    <script src="js/svg.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/03.demo.js"></script><!-- endinject -->
+</body>
+
+</html>
